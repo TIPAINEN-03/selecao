@@ -8,7 +8,7 @@ class HomepageView (TemplateView):
 class BlogView  (TemplateView):
     template_name = "general/blog.html"
     
-class PortfolioView (TemplateView):
+class PortfoliodetailsView (TemplateView):
     template_name = "general/portfolio-details.html"
     
 class BlogdetailsView (TemplateView):
@@ -16,4 +16,19 @@ class BlogdetailsView (TemplateView):
     
 class ServiceView (TemplateView):
     template_name = "general/service-details.html"
+
+class ContactView (TemplateView):
+    template_name = "general/contact.html"
+
+class AboutView (TemplateView):
+    template_name = "general/about.html"
+
+class PortfolioView (TemplateView):
+    template_name = "general/portfolio.html"
+
+class TeamView (TemplateView):
+    template_name = "general/team.html"
+
+class SerView (TemplateView):
+    template_name = "general/service.html"
     
